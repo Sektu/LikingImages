@@ -1,10 +1,11 @@
 import CustomizedImage from "../CustomizedImage/CustomizedImage";
-import data from "../data"
+import data from "../../data/data"
 
 const LikeDislikeImages = () => {
-    const elem1 = data[0];
     return <>
-        <CustomizedImage {...elem1} />
+        {data.map((elem, iter) => {
+            return <CustomizedImage key={iter} {...elem} />;
+      })}
     </>;
 }
 
