@@ -1,5 +1,6 @@
 import React from 'react';
 import LikeDislikeImages from "../LikeDislikeImages/LikeDislikeImages"
+import "./App.css";
 
 function App() {
   return (

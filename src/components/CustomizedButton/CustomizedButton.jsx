@@ -1,3 +1,5 @@
+import "./CustomizedButton.css";
+
 const CustomizedButton = ({className, ariaLabel, name, onClick}) => {
     return (<button 
         className={className}
