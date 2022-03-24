@@ -10,7 +10,7 @@ const CustomizedImage = ({name, src, fullName}) => {
     const isLiked = likingData[name];
     return (
         <>
-            <h5 className="image-name">{fullName}</h5>
+            <h5 className="image-name">{name}</h5>
             <img className="image" src={src} alt={name} />
             <div>
             {

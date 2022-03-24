@@ -7,16 +7,12 @@ export const likingSlice = createSlice({
   },
   reducers: {
     doLike: (state, action) => {
-      console.log("dispatch doLike");
       const name = action.payload;
       state.data = { ...state.data, [name]: true };
-      console.log(state.data);
     },
     doDislike: (state, action) => {
-      console.log("dispatch doDislike");
       const name = action.payload;
       state.data = { ...state.data, [name]: false };
-      console.log(state.data);
     }
   }
 });
