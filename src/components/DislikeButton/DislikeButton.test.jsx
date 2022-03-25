@@ -20,6 +20,7 @@ it("check dislike button ", () => {
             <DislikeButton onClick={() => {}} />
         </Provider>);
     const button = getByRole("button");
+    console.log(button);
     expect(button).toHaveClass("button");
     expect(button).toHaveClass("dislike-button");
     expect(button).toHaveTextContent("Dislike");
