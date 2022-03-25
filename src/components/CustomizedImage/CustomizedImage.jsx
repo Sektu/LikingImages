@@ -4,7 +4,7 @@ import LikeButton from "../LikeButton/LikeButton";
 import DislikeButton from "../DislikeButton/DislikeButton";
 import "./CustomizedImage.css";
 
-const CustomizedImage = ({name, src, fullName}) => {
+const CustomizedImage = ({name, src}) => {
     const likingData = useSelector((state) => state.liking.data);
     const dispatch = useDispatch();
     const isLiked = likingData[name];

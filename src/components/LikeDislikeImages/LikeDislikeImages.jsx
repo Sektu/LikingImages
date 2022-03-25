@@ -1,6 +1,6 @@
 import CustomizedImage from "../CustomizedImage/CustomizedImage";
 import UploadImage from "../UploadImage/UploadImage";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 const LikeDislikeImages = () => {  
     const images = useSelector((state) => state.images.data);

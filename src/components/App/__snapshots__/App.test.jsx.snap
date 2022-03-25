@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <input
+      accept="image/*"
+      type="file"
+    />
+    <h5
+      class="image-name"
+    >
+      calathea
+    </h5>
+    <img
+      alt="calathea"
+      class="image"
+      src="https://i.pinimg.com/originals/7c/e5/4a/7ce54ab9433b1a133c4cbe9aa95b1f51.jpg"
+    />
+    <div>
+      <button
+        class="button like-button"
+      >
+        Like
+      </button>
+    </div>
+    <h5
+      class="image-name"
+    >
+      alocasia
+    </h5>
+    <img
+      alt="alocasia"
+      class="image"
+      src="https://zielony-parapet.pl/18278-thickbox_default/alocasia-reginula-black-velvet-.jpg"
+    />
+    <div>
+      <button
+        class="button like-button"
+      >
+        Like
+      </button>
+    </div>
+    <h5
+      class="image-name"
+    >
+      epipremnum
+    </h5>
+    <img
+      alt="epipremnum"
+      class="image"
+      src="https://a.allegroimg.com/s512/11f58a/45a1160c4f9dbedd26c5b83d9bb6/EPIPREMNUM-PINNATUM-MARBLE-QUEEN-SCINDAPSUS"
+    />
+    <div>
+      <button
+        class="button like-button"
+      >
+        Like
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
